@@ -2,7 +2,7 @@ function Test-Performance {
     [CmdletBinding()]
     Param(
         [Parameter(Mandatory=$true,Position=1)]
-        [ValidateRange(5,50000)]
+        [ValidateRange(5,50000000)]
         [int]$Count,
         [Parameter(Mandatory=$true,Position=2)]
         [ScriptBlock]$ScriptBlock
